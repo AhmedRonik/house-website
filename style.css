@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  sans-serif;
+}
+.banner{
+    background-image:   url(bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav-bar{
+    width: 85%;
+    padding: 20px 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar ul li{
+    list-style-type: none;
+    margin: 0 15px;
+    display: inline-block;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: mintcream;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.nav-bar ul li a:hover{
+    cursor: text;
+    color: crimson;
+}
+.contant{
+    width: 100%;
+    position: absolute;
+    color: rgb(50, 129, 161);
+    text-align: center;
+    top: 50%;
+   
+   
+}
+.contant h1{
+    color: antiquewhite;
+    font-style: italic;
+    
+    font-size: 50px;
+}
+.contant p{
+    color: antiquewhite;
+    font-style: italic;
+   
+
+    
+
+}
+button{
+    padding: 10px 0;
+    border-radius: 25%;
+    text-align: center;
+    margin: 20px 10px;
+    width: 200px;
+    border: 2px solid greenyellow;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: aqua;
+
+
+
+}
+button:hover{
+    color: darkred;
+
+}
+.ronik{
+    border: 1px solid greenyellow;
+    background: transparent;
+    width: 100px;
+    color: rgb(47, 96, 202);
+    border-radius: 20%;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: not-allowed;
+
+
+}
+
+
